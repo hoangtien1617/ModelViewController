@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Shoes.plist
+   Nubee House Shop
+
+   Created by Hoàng Tiến on 11/26/15.
+   Copyright (c) 2015 Hoàng Tiến. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>shoes</key>
+            <string>Giày MK đen</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoesa</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày Jimmy Choo London đen</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoesb</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày DKNY đen</string>
+            <key>price</key>
+            <string>320k</string>
+            <key>photo</key>
+            <string>shoesc</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày MK hồng</string>
+            <key>price</key>
+            <string>310k</string>
+            <key>photo</key>
+            <string>shoesd</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày họa tiết hoa sen</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoese</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày Valentino</string>
+            <key>price</key>
+            <string>380k</string>
+            <key>photo</key>
+            <string>shoesg</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày Cao gót nơ màu đen</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoesh</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày Cao gót nơ màu be</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoesi</string>
+        </dict>
+        <dict>
+            <key>shoes</key>
+            <string>Giày redherring đen</string>
+            <key>price</key>
+            <string>300k</string>
+            <key>photo</key>
+            <string>shoesj</string>
+        </dict>
+    </array>
+
+
+</plist>

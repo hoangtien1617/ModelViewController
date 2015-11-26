@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29756E451C06C66D00439559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756E441C06C66D00439559 /* main.m */; };
+		29756E481C06C66D00439559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756E471C06C66D00439559 /* AppDelegate.m */; };
+		29756E4E1C06C66D00439559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29756E4C1C06C66D00439559 /* Main.storyboard */; };
+		29756E501C06C66D00439559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29756E4F1C06C66D00439559 /* Assets.xcassets */; };
+		29756E531C06C66D00439559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29756E511C06C66D00439559 /* LaunchScreen.storyboard */; };
+		29756E5C1C06C6DC00439559 /* Clothes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29756E5B1C06C6DC00439559 /* Clothes.plist */; };
+		29756E691C06C90F00439559 /* clothesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E5E1C06C90F00439559 /* clothesa.jpg */; };
+		29756E6C1C06C90F00439559 /* clothesd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E611C06C90F00439559 /* clothesd.jpg */; };
+		29756E6D1C06C90F00439559 /* clothese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E621C06C90F00439559 /* clothese.jpg */; };
+		29756E6E1C06C90F00439559 /* clothesf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E631C06C90F00439559 /* clothesf.jpg */; };
+		29756E6F1C06C90F00439559 /* clothesg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E641C06C90F00439559 /* clothesg.jpg */; };
+		29756E701C06C90F00439559 /* clothesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E651C06C90F00439559 /* clothesh.jpg */; };
+		29756E711C06C90F00439559 /* clothesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E661C06C90F00439559 /* clothesi.jpg */; };
+		29756E721C06C90F00439559 /* clothesj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E671C06C90F00439559 /* clothesj.jpg */; };
+		29756E731C06C90F00439559 /* clothesk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E681C06C90F00439559 /* clothesk.jpg */; };
+		29756E801C06CA8100439559 /* shoesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E761C06CA8100439559 /* shoesa.jpg */; };
+		29756E811C06CA8100439559 /* shoesb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E771C06CA8100439559 /* shoesb.jpg */; };
+		29756E821C06CA8100439559 /* shoesc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E781C06CA8100439559 /* shoesc.jpg */; };
+		29756E831C06CA8100439559 /* shoesd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E791C06CA8100439559 /* shoesd.jpg */; };
+		29756E841C06CA8100439559 /* shoese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E7A1C06CA8100439559 /* shoese.jpg */; };
+		29756E861C06CA8100439559 /* shoesg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E7C1C06CA8100439559 /* shoesg.jpg */; };
+		29756E871C06CA8100439559 /* shoesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E7D1C06CA8100439559 /* shoesh.jpg */; };
+		29756E881C06CA8100439559 /* shoesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E7E1C06CA8100439559 /* shoesi.jpg */; };
+		29756E891C06CA8100439559 /* shoesj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E7F1C06CA8100439559 /* shoesj.jpg */; };
+		29756E931C06CAA900439559 /* baga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E8B1C06CAA900439559 /* baga.jpg */; };
+		29756E941C06CAA900439559 /* bagb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E8C1C06CAA900439559 /* bagb.jpg */; };
+		29756E951C06CAA900439559 /* bagc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E8D1C06CAA900439559 /* bagc.jpg */; };
+		29756E961C06CAA900439559 /* bagd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E8E1C06CAA900439559 /* bagd.jpg */; };
+		29756E971C06CAA900439559 /* bage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756E8F1C06CAA900439559 /* bage.jpg */; };
+		29756EA01C06D17F00439559 /* NBHCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756E9F1C06D17F00439559 /* NBHCModel.m */; };
+		29756EB91C06D5BB00439559 /* baga0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA21C06D5BB00439559 /* baga0.jpg */; };
+		29756EBA1C06D5BB00439559 /* bagb0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA31C06D5BB00439559 /* bagb0.jpg */; };
+		29756EBB1C06D5BB00439559 /* bagc0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA41C06D5BB00439559 /* bagc0.jpg */; };
+		29756EBC1C06D5BB00439559 /* bagd0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA51C06D5BB00439559 /* bagd0.jpg */; };
+		29756EBD1C06D5BB00439559 /* bage0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA61C06D5BB00439559 /* bage0.jpg */; };
+		29756EBE1C06D5BB00439559 /* clothesa0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA71C06D5BB00439559 /* clothesa0.jpg */; };
+		29756EBF1C06D5BB00439559 /* clothesd0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA81C06D5BB00439559 /* clothesd0.jpg */; };
+		29756EC01C06D5BB00439559 /* clothese0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EA91C06D5BB00439559 /* clothese0.jpg */; };
+		29756EC11C06D5BB00439559 /* clothesf0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAA1C06D5BB00439559 /* clothesf0.jpg */; };
+		29756EC21C06D5BB00439559 /* clothesg0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAB1C06D5BB00439559 /* clothesg0.jpg */; };
+		29756EC31C06D5BB00439559 /* clothesh0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAC1C06D5BB00439559 /* clothesh0.jpg */; };
+		29756EC41C06D5BB00439559 /* clothesi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAD1C06D5BB00439559 /* clothesi0.jpg */; };
+		29756EC51C06D5BB00439559 /* clothesj0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAE1C06D5BB00439559 /* clothesj0.jpg */; };
+		29756EC61C06D5BB00439559 /* clothesk0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EAF1C06D5BB00439559 /* clothesk0.jpg */; };
+		29756EC71C06D5BB00439559 /* shoesa0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB01C06D5BB00439559 /* shoesa0.jpg */; };
+		29756EC81C06D5BB00439559 /* shoesb0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB11C06D5BB00439559 /* shoesb0.jpg */; };
+		29756EC91C06D5BB00439559 /* shoesc0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB21C06D5BB00439559 /* shoesc0.jpg */; };
+		29756ECA1C06D5BB00439559 /* shoesd0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB31C06D5BB00439559 /* shoesd0.jpg */; };
+		29756ECB1C06D5BB00439559 /* shoese0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB41C06D5BB00439559 /* shoese0.jpg */; };
+		29756ECC1C06D5BB00439559 /* shoesg0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB51C06D5BB00439559 /* shoesg0.jpg */; };
+		29756ECD1C06D5BB00439559 /* shoesh0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB61C06D5BB00439559 /* shoesh0.jpg */; };
+		29756ECE1C06D5BB00439559 /* shoesi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB71C06D5BB00439559 /* shoesi0.jpg */; };
+		29756ECF1C06D5BB00439559 /* shoesj0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29756EB81C06D5BB00439559 /* shoesj0.jpg */; };
+		29756ED21C06D5E200439559 /* NBHSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756ED11C06D5E200439559 /* NBHSModel.m */; };
+		29756ED51C06D5F100439559 /* NBHBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756ED41C06D5F100439559 /* NBHBModel.m */; };
+		29756ED81C06D6EC00439559 /* ClothesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756ED71C06D6EC00439559 /* ClothesDataManager.m */; };
+		29756EDB1C06D7C700439559 /* ShoesDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EDA1C06D7C700439559 /* ShoesDataManager.m */; };
+		29756EDE1C06D84700439559 /* BagDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EDD1C06D84700439559 /* BagDataManager.m */; };
+		29756EE01C06D9E000439559 /* Bag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29756EDF1C06D9E000439559 /* Bag.plist */; };
+		29756EE21C06D9ED00439559 /* Shoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29756EE11C06D9ED00439559 /* Shoes.plist */; };
+		29756EE61C06DE1C00439559 /* clothesBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 29756EE31C06DE1C00439559 /* clothesBtn.png */; };
+		29756EE71C06DE1C00439559 /* shoesBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 29756EE41C06DE1C00439559 /* shoesBtn.png */; };
+		29756EEA1C06DF9500439559 /* bagBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 29756EE91C06DF9500439559 /* bagBtn.png */; };
+		29756EEE1C06E03800439559 /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EED1C06E03800439559 /* HomeScreen.m */; };
+		29756EF11C06E82600439559 /* BagNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EF01C06E82600439559 /* BagNBH.m */; };
+		29756EF41C06F6A000439559 /* BagTableViewNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EF31C06F6A000439559 /* BagTableViewNBH.m */; };
+		29756EF71C06F6AF00439559 /* BagDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EF61C06F6AF00439559 /* BagDetail.m */; };
+		29756EFA1C07029F00439559 /* ClothesNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EF91C07029F00439559 /* ClothesNBH.m */; };
+		29756EFD1C0702B100439559 /* ClothesTableViewNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EFC1C0702B100439559 /* ClothesTableViewNBH.m */; };
+		29756F001C0702C300439559 /* ClothesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756EFF1C0702C300439559 /* ClothesDetail.m */; };
+		29756F031C070E0600439559 /* ShoesNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756F021C070E0600439559 /* ShoesNBH.m */; };
+		29756F061C070E1800439559 /* ShoesTableViewNBH.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756F051C070E1800439559 /* ShoesTableViewNBH.m */; };
+		29756F091C070E2500439559 /* ShoesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29756F081C070E2500439559 /* ShoesDetail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29756E401C06C66D00439559 /* Nubee House Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nubee House Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29756E441C06C66D00439559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29756E461C06C66D00439559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29756E471C06C66D00439559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29756E4D1C06C66D00439559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29756E4F1C06C66D00439559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29756E521C06C66D00439559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29756E541C06C66D00439559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29756E5B1C06C6DC00439559 /* Clothes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Clothes.plist; sourceTree = "<group>"; };
+		29756E5E1C06C90F00439559 /* clothesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesa.jpg; sourceTree = "<group>"; };
+		29756E611C06C90F00439559 /* clothesd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesd.jpg; sourceTree = "<group>"; };
+		29756E621C06C90F00439559 /* clothese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothese.jpg; sourceTree = "<group>"; };
+		29756E631C06C90F00439559 /* clothesf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesf.jpg; sourceTree = "<group>"; };
+		29756E641C06C90F00439559 /* clothesg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesg.jpg; sourceTree = "<group>"; };
+		29756E651C06C90F00439559 /* clothesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesh.jpg; sourceTree = "<group>"; };
+		29756E661C06C90F00439559 /* clothesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesi.jpg; sourceTree = "<group>"; };
+		29756E671C06C90F00439559 /* clothesj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesj.jpg; sourceTree = "<group>"; };
+		29756E681C06C90F00439559 /* clothesk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesk.jpg; sourceTree = "<group>"; };
+		29756E761C06CA8100439559 /* shoesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesa.jpg; sourceTree = "<group>"; };
+		29756E771C06CA8100439559 /* shoesb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesb.jpg; sourceTree = "<group>"; };
+		29756E781C06CA8100439559 /* shoesc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesc.jpg; sourceTree = "<group>"; };
+		29756E791C06CA8100439559 /* shoesd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesd.jpg; sourceTree = "<group>"; };
+		29756E7A1C06CA8100439559 /* shoese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoese.jpg; sourceTree = "<group>"; };
+		29756E7C1C06CA8100439559 /* shoesg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesg.jpg; sourceTree = "<group>"; };
+		29756E7D1C06CA8100439559 /* shoesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesh.jpg; sourceTree = "<group>"; };
+		29756E7E1C06CA8100439559 /* shoesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesi.jpg; sourceTree = "<group>"; };
+		29756E7F1C06CA8100439559 /* shoesj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesj.jpg; sourceTree = "<group>"; };
+		29756E8B1C06CAA900439559 /* baga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baga.jpg; sourceTree = "<group>"; };
+		29756E8C1C06CAA900439559 /* bagb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagb.jpg; sourceTree = "<group>"; };
+		29756E8D1C06CAA900439559 /* bagc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagc.jpg; sourceTree = "<group>"; };
+		29756E8E1C06CAA900439559 /* bagd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagd.jpg; sourceTree = "<group>"; };
+		29756E8F1C06CAA900439559 /* bage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bage.jpg; sourceTree = "<group>"; };
+		29756E9E1C06D17F00439559 /* NBHCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHCModel.h; sourceTree = "<group>"; };
+		29756E9F1C06D17F00439559 /* NBHCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHCModel.m; sourceTree = "<group>"; };
+		29756EA21C06D5BB00439559 /* baga0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baga0.jpg; sourceTree = "<group>"; };
+		29756EA31C06D5BB00439559 /* bagb0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagb0.jpg; sourceTree = "<group>"; };
+		29756EA41C06D5BB00439559 /* bagc0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagc0.jpg; sourceTree = "<group>"; };
+		29756EA51C06D5BB00439559 /* bagd0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagd0.jpg; sourceTree = "<group>"; };
+		29756EA61C06D5BB00439559 /* bage0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bage0.jpg; sourceTree = "<group>"; };
+		29756EA71C06D5BB00439559 /* clothesa0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesa0.jpg; sourceTree = "<group>"; };
+		29756EA81C06D5BB00439559 /* clothesd0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesd0.jpg; sourceTree = "<group>"; };
+		29756EA91C06D5BB00439559 /* clothese0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothese0.jpg; sourceTree = "<group>"; };
+		29756EAA1C06D5BB00439559 /* clothesf0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesf0.jpg; sourceTree = "<group>"; };
+		29756EAB1C06D5BB00439559 /* clothesg0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesg0.jpg; sourceTree = "<group>"; };
+		29756EAC1C06D5BB00439559 /* clothesh0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesh0.jpg; sourceTree = "<group>"; };
+		29756EAD1C06D5BB00439559 /* clothesi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesi0.jpg; sourceTree = "<group>"; };
+		29756EAE1C06D5BB00439559 /* clothesj0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesj0.jpg; sourceTree = "<group>"; };
+		29756EAF1C06D5BB00439559 /* clothesk0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothesk0.jpg; sourceTree = "<group>"; };
+		29756EB01C06D5BB00439559 /* shoesa0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesa0.jpg; sourceTree = "<group>"; };
+		29756EB11C06D5BB00439559 /* shoesb0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesb0.jpg; sourceTree = "<group>"; };
+		29756EB21C06D5BB00439559 /* shoesc0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesc0.jpg; sourceTree = "<group>"; };
+		29756EB31C06D5BB00439559 /* shoesd0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesd0.jpg; sourceTree = "<group>"; };
+		29756EB41C06D5BB00439559 /* shoese0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoese0.jpg; sourceTree = "<group>"; };
+		29756EB51C06D5BB00439559 /* shoesg0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesg0.jpg; sourceTree = "<group>"; };
+		29756EB61C06D5BB00439559 /* shoesh0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesh0.jpg; sourceTree = "<group>"; };
+		29756EB71C06D5BB00439559 /* shoesi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesi0.jpg; sourceTree = "<group>"; };
+		29756EB81C06D5BB00439559 /* shoesj0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoesj0.jpg; sourceTree = "<group>"; };
+		29756ED01C06D5E200439559 /* NBHSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHSModel.h; sourceTree = "<group>"; };
+		29756ED11C06D5E200439559 /* NBHSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHSModel.m; sourceTree = "<group>"; };
+		29756ED31C06D5F100439559 /* NBHBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHBModel.h; sourceTree = "<group>"; };
+		29756ED41C06D5F100439559 /* NBHBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHBModel.m; sourceTree = "<group>"; };
+		29756ED61C06D6EC00439559 /* ClothesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesDataManager.h; sourceTree = "<group>"; };
+		29756ED71C06D6EC00439559 /* ClothesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesDataManager.m; sourceTree = "<group>"; };
+		29756ED91C06D7C700439559 /* ShoesDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoesDataManager.h; sourceTree = "<group>"; };
+		29756EDA1C06D7C700439559 /* ShoesDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoesDataManager.m; sourceTree = "<group>"; };
+		29756EDC1C06D84700439559 /* BagDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagDataManager.h; sourceTree = "<group>"; };
+		29756EDD1C06D84700439559 /* BagDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagDataManager.m; sourceTree = "<group>"; };
+		29756EDF1C06D9E000439559 /* Bag.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bag.plist; sourceTree = "<group>"; };
+		29756EE11C06D9ED00439559 /* Shoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Shoes.plist; sourceTree = "<group>"; };
+		29756EE31C06DE1C00439559 /* clothesBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothesBtn.png; sourceTree = "<group>"; };
+		29756EE41C06DE1C00439559 /* shoesBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoesBtn.png; sourceTree = "<group>"; };
+		29756EE91C06DF9500439559 /* bagBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bagBtn.png; sourceTree = "<group>"; };
+		29756EEC1C06E03800439559 /* HomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
+		29756EED1C06E03800439559 /* HomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreen.m; sourceTree = "<group>"; };
+		29756EEF1C06E82600439559 /* BagNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagNBH.h; sourceTree = "<group>"; };
+		29756EF01C06E82600439559 /* BagNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagNBH.m; sourceTree = "<group>"; };
+		29756EF21C06F6A000439559 /* BagTableViewNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagTableViewNBH.h; sourceTree = "<group>"; };
+		29756EF31C06F6A000439559 /* BagTableViewNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagTableViewNBH.m; sourceTree = "<group>"; };
+		29756EF51C06F6AF00439559 /* BagDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagDetail.h; sourceTree = "<group>"; };
+		29756EF61C06F6AF00439559 /* BagDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagDetail.m; sourceTree = "<group>"; };
+		29756EF81C07029F00439559 /* ClothesNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesNBH.h; sourceTree = "<group>"; };
+		29756EF91C07029F00439559 /* ClothesNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesNBH.m; sourceTree = "<group>"; };
+		29756EFB1C0702B100439559 /* ClothesTableViewNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesTableViewNBH.h; sourceTree = "<group>"; };
+		29756EFC1C0702B100439559 /* ClothesTableViewNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesTableViewNBH.m; sourceTree = "<group>"; };
+		29756EFE1C0702C300439559 /* ClothesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesDetail.h; sourceTree = "<group>"; };
+		29756EFF1C0702C300439559 /* ClothesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesDetail.m; sourceTree = "<group>"; };
+		29756F011C070E0600439559 /* ShoesNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoesNBH.h; sourceTree = "<group>"; };
+		29756F021C070E0600439559 /* ShoesNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoesNBH.m; sourceTree = "<group>"; };
+		29756F041C070E1800439559 /* ShoesTableViewNBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoesTableViewNBH.h; sourceTree = "<group>"; };
+		29756F051C070E1800439559 /* ShoesTableViewNBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoesTableViewNBH.m; sourceTree = "<group>"; };
+		29756F071C070E2500439559 /* ShoesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoesDetail.h; sourceTree = "<group>"; };
+		29756F081C070E2500439559 /* ShoesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoesDetail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29756E3D1C06C66D00439559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29756E371C06C66D00439559 = {
+			isa = PBXGroup;
+			children = (
+				29756EEB1C06E01300439559 /* ViewControllers */,
+				29756EE91C06DF9500439559 /* bagBtn.png */,
+				29756EE31C06DE1C00439559 /* clothesBtn.png */,
+				29756EE41C06DE1C00439559 /* shoesBtn.png */,
+				29756E4C1C06C66D00439559 /* Main.storyboard */,
+				29756E5D1C06C8E500439559 /* Photo */,
+				29756E5A1C06C67C00439559 /* Model */,
+				29756E421C06C66D00439559 /* Nubee House Shop */,
+				29756E411C06C66D00439559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29756E411C06C66D00439559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29756E401C06C66D00439559 /* Nubee House Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29756E421C06C66D00439559 /* Nubee House Shop */ = {
+			isa = PBXGroup;
+			children = (
+				29756E461C06C66D00439559 /* AppDelegate.h */,
+				29756E471C06C66D00439559 /* AppDelegate.m */,
+				29756E4F1C06C66D00439559 /* Assets.xcassets */,
+				29756E511C06C66D00439559 /* LaunchScreen.storyboard */,
+				29756E541C06C66D00439559 /* Info.plist */,
+				29756E431C06C66D00439559 /* Supporting Files */,
+			);
+			path = "Nubee House Shop";
+			sourceTree = "<group>";
+		};
+		29756E431C06C66D00439559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29756E441C06C66D00439559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29756E5A1C06C67C00439559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29756EE11C06D9ED00439559 /* Shoes.plist */,
+				29756EDF1C06D9E000439559 /* Bag.plist */,
+				29756E5B1C06C6DC00439559 /* Clothes.plist */,
+				29756E9E1C06D17F00439559 /* NBHCModel.h */,
+				29756E9F1C06D17F00439559 /* NBHCModel.m */,
+				29756ED01C06D5E200439559 /* NBHSModel.h */,
+				29756ED11C06D5E200439559 /* NBHSModel.m */,
+				29756ED31C06D5F100439559 /* NBHBModel.h */,
+				29756ED41C06D5F100439559 /* NBHBModel.m */,
+				29756ED61C06D6EC00439559 /* ClothesDataManager.h */,
+				29756ED71C06D6EC00439559 /* ClothesDataManager.m */,
+				29756ED91C06D7C700439559 /* ShoesDataManager.h */,
+				29756EDA1C06D7C700439559 /* ShoesDataManager.m */,
+				29756EDC1C06D84700439559 /* BagDataManager.h */,
+				29756EDD1C06D84700439559 /* BagDataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29756E5D1C06C8E500439559 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				29756EA11C06D59600439559 /* Icon */,
+				29756E8A1C06CA8800439559 /* Bag */,
+				29756E751C06CA1700439559 /* Shoes */,
+				29756E741C06CA0400439559 /* Clothes */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		29756E741C06CA0400439559 /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				29756E5E1C06C90F00439559 /* clothesa.jpg */,
+				29756E611C06C90F00439559 /* clothesd.jpg */,
+				29756E621C06C90F00439559 /* clothese.jpg */,
+				29756E631C06C90F00439559 /* clothesf.jpg */,
+				29756E641C06C90F00439559 /* clothesg.jpg */,
+				29756E651C06C90F00439559 /* clothesh.jpg */,
+				29756E661C06C90F00439559 /* clothesi.jpg */,
+				29756E671C06C90F00439559 /* clothesj.jpg */,
+				29756E681C06C90F00439559 /* clothesk.jpg */,
+			);
+			name = Clothes;
+			sourceTree = "<group>";
+		};
+		29756E751C06CA1700439559 /* Shoes */ = {
+			isa = PBXGroup;
+			children = (
+				29756E761C06CA8100439559 /* shoesa.jpg */,
+				29756E771C06CA8100439559 /* shoesb.jpg */,
+				29756E781C06CA8100439559 /* shoesc.jpg */,
+				29756E791C06CA8100439559 /* shoesd.jpg */,
+				29756E7A1C06CA8100439559 /* shoese.jpg */,
+				29756E7C1C06CA8100439559 /* shoesg.jpg */,
+				29756E7D1C06CA8100439559 /* shoesh.jpg */,
+				29756E7E1C06CA8100439559 /* shoesi.jpg */,
+				29756E7F1C06CA8100439559 /* shoesj.jpg */,
+			);
+			name = Shoes;
+			sourceTree = "<group>";
+		};
+		29756E8A1C06CA8800439559 /* Bag */ = {
+			isa = PBXGroup;
+			children = (
+				29756E8B1C06CAA900439559 /* baga.jpg */,
+				29756E8C1C06CAA900439559 /* bagb.jpg */,
+				29756E8D1C06CAA900439559 /* bagc.jpg */,
+				29756E8E1C06CAA900439559 /* bagd.jpg */,
+				29756E8F1C06CAA900439559 /* bage.jpg */,
+			);
+			name = Bag;
+			sourceTree = "<group>";
+		};
+		29756EA11C06D59600439559 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				29756EA21C06D5BB00439559 /* baga0.jpg */,
+				29756EA31C06D5BB00439559 /* bagb0.jpg */,
+				29756EA41C06D5BB00439559 /* bagc0.jpg */,
+				29756EA51C06D5BB00439559 /* bagd0.jpg */,
+				29756EA61C06D5BB00439559 /* bage0.jpg */,
+				29756EA71C06D5BB00439559 /* clothesa0.jpg */,
+				29756EA81C06D5BB00439559 /* clothesd0.jpg */,
+				29756EA91C06D5BB00439559 /* clothese0.jpg */,
+				29756EAA1C06D5BB00439559 /* clothesf0.jpg */,
+				29756EAB1C06D5BB00439559 /* clothesg0.jpg */,
+				29756EAC1C06D5BB00439559 /* clothesh0.jpg */,
+				29756EAD1C06D5BB00439559 /* clothesi0.jpg */,
+				29756EAE1C06D5BB00439559 /* clothesj0.jpg */,
+				29756EAF1C06D5BB00439559 /* clothesk0.jpg */,
+				29756EB01C06D5BB00439559 /* shoesa0.jpg */,
+				29756EB11C06D5BB00439559 /* shoesb0.jpg */,
+				29756EB21C06D5BB00439559 /* shoesc0.jpg */,
+				29756EB31C06D5BB00439559 /* shoesd0.jpg */,
+				29756EB41C06D5BB00439559 /* shoese0.jpg */,
+				29756EB51C06D5BB00439559 /* shoesg0.jpg */,
+				29756EB61C06D5BB00439559 /* shoesh0.jpg */,
+				29756EB71C06D5BB00439559 /* shoesi0.jpg */,
+				29756EB81C06D5BB00439559 /* shoesj0.jpg */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		29756EEB1C06E01300439559 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29756EEC1C06E03800439559 /* HomeScreen.h */,
+				29756EED1C06E03800439559 /* HomeScreen.m */,
+				29756EEF1C06E82600439559 /* BagNBH.h */,
+				29756EF01C06E82600439559 /* BagNBH.m */,
+				29756EF21C06F6A000439559 /* BagTableViewNBH.h */,
+				29756EF31C06F6A000439559 /* BagTableViewNBH.m */,
+				29756EF51C06F6AF00439559 /* BagDetail.h */,
+				29756EF61C06F6AF00439559 /* BagDetail.m */,
+				29756EF81C07029F00439559 /* ClothesNBH.h */,
+				29756EF91C07029F00439559 /* ClothesNBH.m */,
+				29756EFB1C0702B100439559 /* ClothesTableViewNBH.h */,
+				29756EFC1C0702B100439559 /* ClothesTableViewNBH.m */,
+				29756EFE1C0702C300439559 /* ClothesDetail.h */,
+				29756EFF1C0702C300439559 /* ClothesDetail.m */,
+				29756F011C070E0600439559 /* ShoesNBH.h */,
+				29756F021C070E0600439559 /* ShoesNBH.m */,
+				29756F041C070E1800439559 /* ShoesTableViewNBH.h */,
+				29756F051C070E1800439559 /* ShoesTableViewNBH.m */,
+				29756F071C070E2500439559 /* ShoesDetail.h */,
+				29756F081C070E2500439559 /* ShoesDetail.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29756E3F1C06C66D00439559 /* Nubee House Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29756E571C06C66D00439559 /* Build configuration list for PBXNativeTarget "Nubee House Shop" */;
+			buildPhases = (
+				29756E3C1C06C66D00439559 /* Sources */,
+				29756E3D1C06C66D00439559 /* Frameworks */,
+				29756E3E1C06C66D00439559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nubee House Shop";
+			productName = "Nubee House Shop";
+			productReference = 29756E401C06C66D00439559 /* Nubee House Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29756E381C06C66D00439559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hoàng Tiến";
+				TargetAttributes = {
+					29756E3F1C06C66D00439559 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 29756E3B1C06C66D00439559 /* Build configuration list for PBXProject "Nubee House Shop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29756E371C06C66D00439559;
+			productRefGroup = 29756E411C06C66D00439559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29756E3F1C06C66D00439559 /* Nubee House Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29756E3E1C06C66D00439559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29756ECC1C06D5BB00439559 /* shoesg0.jpg in Resources */,
+				29756EC51C06D5BB00439559 /* clothesj0.jpg in Resources */,
+				29756ECB1C06D5BB00439559 /* shoese0.jpg in Resources */,
+				29756EC01C06D5BB00439559 /* clothese0.jpg in Resources */,
+				29756ECD1C06D5BB00439559 /* shoesh0.jpg in Resources */,
+				29756E711C06C90F00439559 /* clothesi.jpg in Resources */,
+				29756EC91C06D5BB00439559 /* shoesc0.jpg in Resources */,
+				29756EEA1C06DF9500439559 /* bagBtn.png in Resources */,
+				29756ECE1C06D5BB00439559 /* shoesi0.jpg in Resources */,
+				29756ECA1C06D5BB00439559 /* shoesd0.jpg in Resources */,
+				29756E6E1C06C90F00439559 /* clothesf.jpg in Resources */,
+				29756E961C06CAA900439559 /* bagd.jpg in Resources */,
+				29756EBB1C06D5BB00439559 /* bagc0.jpg in Resources */,
+				29756EB91C06D5BB00439559 /* baga0.jpg in Resources */,
+				29756EC81C06D5BB00439559 /* shoesb0.jpg in Resources */,
+				29756EE61C06DE1C00439559 /* clothesBtn.png in Resources */,
+				29756E531C06C66D00439559 /* LaunchScreen.storyboard in Resources */,
+				29756EE21C06D9ED00439559 /* Shoes.plist in Resources */,
+				29756E5C1C06C6DC00439559 /* Clothes.plist in Resources */,
+				29756EE01C06D9E000439559 /* Bag.plist in Resources */,
+				29756EC11C06D5BB00439559 /* clothesf0.jpg in Resources */,
+				29756E871C06CA8100439559 /* shoesh.jpg in Resources */,
+				29756EE71C06DE1C00439559 /* shoesBtn.png in Resources */,
+				29756EBE1C06D5BB00439559 /* clothesa0.jpg in Resources */,
+				29756EC41C06D5BB00439559 /* clothesi0.jpg in Resources */,
+				29756EC71C06D5BB00439559 /* shoesa0.jpg in Resources */,
+				29756EBC1C06D5BB00439559 /* bagd0.jpg in Resources */,
+				29756E691C06C90F00439559 /* clothesa.jpg in Resources */,
+				29756E6C1C06C90F00439559 /* clothesd.jpg in Resources */,
+				29756E891C06CA8100439559 /* shoesj.jpg in Resources */,
+				29756E831C06CA8100439559 /* shoesd.jpg in Resources */,
+				29756EBA1C06D5BB00439559 /* bagb0.jpg in Resources */,
+				29756E941C06CAA900439559 /* bagb.jpg in Resources */,
+				29756E701C06C90F00439559 /* clothesh.jpg in Resources */,
+				29756EC61C06D5BB00439559 /* clothesk0.jpg in Resources */,
+				29756E841C06CA8100439559 /* shoese.jpg in Resources */,
+				29756E821C06CA8100439559 /* shoesc.jpg in Resources */,
+				29756EC21C06D5BB00439559 /* clothesg0.jpg in Resources */,
+				29756E881C06CA8100439559 /* shoesi.jpg in Resources */,
+				29756E971C06CAA900439559 /* bage.jpg in Resources */,
+				29756E6D1C06C90F00439559 /* clothese.jpg in Resources */,
+				29756E6F1C06C90F00439559 /* clothesg.jpg in Resources */,
+				29756E931C06CAA900439559 /* baga.jpg in Resources */,
+				29756EBD1C06D5BB00439559 /* bage0.jpg in Resources */,
+				29756E951C06CAA900439559 /* bagc.jpg in Resources */,
+				29756EBF1C06D5BB00439559 /* clothesd0.jpg in Resources */,
+				29756EC31C06D5BB00439559 /* clothesh0.jpg in Resources */,
+				29756ECF1C06D5BB00439559 /* shoesj0.jpg in Resources */,
+				29756E801C06CA8100439559 /* shoesa.jpg in Resources */,
+				29756E811C06CA8100439559 /* shoesb.jpg in Resources */,
+				29756E731C06C90F00439559 /* clothesk.jpg in Resources */,
+				29756E501C06C66D00439559 /* Assets.xcassets in Resources */,
+				29756E4E1C06C66D00439559 /* Main.storyboard in Resources */,
+				29756E721C06C90F00439559 /* clothesj.jpg in Resources */,
+				29756E861C06CA8100439559 /* shoesg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29756E3C1C06C66D00439559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29756ED81C06D6EC00439559 /* ClothesDataManager.m in Sources */,
+				29756EF41C06F6A000439559 /* BagTableViewNBH.m in Sources */,
+				29756EFA1C07029F00439559 /* ClothesNBH.m in Sources */,
+				29756EEE1C06E03800439559 /* HomeScreen.m in Sources */,
+				29756EF71C06F6AF00439559 /* BagDetail.m in Sources */,
+				29756E481C06C66D00439559 /* AppDelegate.m in Sources */,
+				29756EF11C06E82600439559 /* BagNBH.m in Sources */,
+				29756F061C070E1800439559 /* ShoesTableViewNBH.m in Sources */,
+				29756EDE1C06D84700439559 /* BagDataManager.m in Sources */,
+				29756EDB1C06D7C700439559 /* ShoesDataManager.m in Sources */,
+				29756E451C06C66D00439559 /* main.m in Sources */,
+				29756F091C070E2500439559 /* ShoesDetail.m in Sources */,
+				29756F001C0702C300439559 /* ClothesDetail.m in Sources */,
+				29756ED21C06D5E200439559 /* NBHSModel.m in Sources */,
+				29756EA01C06D17F00439559 /* NBHCModel.m in Sources */,
+				29756ED51C06D5F100439559 /* NBHBModel.m in Sources */,
+				29756EFD1C0702B100439559 /* ClothesTableViewNBH.m in Sources */,
+				29756F031C070E0600439559 /* ShoesNBH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29756E4C1C06C66D00439559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29756E4D1C06C66D00439559 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Nubee House Shop";
+			sourceTree = "<group>";
+		};
+		29756E511C06C66D00439559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29756E521C06C66D00439559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29756E551C06C66D00439559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29756E561C06C66D00439559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29756E581C06C66D00439559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nubee House Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HT.Nubee-House-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29756E591C06C66D00439559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nubee House Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HT.Nubee-House-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29756E3B1C06C66D00439559 /* Build configuration list for PBXProject "Nubee House Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29756E551C06C66D00439559 /* Debug */,
+				29756E561C06C66D00439559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29756E571C06C66D00439559 /* Build configuration list for PBXNativeTarget "Nubee House Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29756E581C06C66D00439559 /* Debug */,
+				29756E591C06C66D00439559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29756E381C06C66D00439559 /* Project object */;
+}

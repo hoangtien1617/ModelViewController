@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Bag.plist
+   Nubee House Shop
+
+   Created by Hoàng Tiến on 11/26/15.
+   Copyright (c) 2015 Hoàng Tiến. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+    <dict>
+        <key>bag</key>
+        <string>Túi đinh hàng Auth</string>
+        <key>price</key>
+        <string>340k</string>
+        <key>photo</key>
+        <string>baga</string>
+    </dict>
+    <dict>
+        <key>bag</key>
+        <string>Túi da</string>
+        <key>price</key>
+        <string>360k</string>
+        <key>photo</key>
+        <string>bagb</string>
+    </dict>
+    <dict>
+        <key>bag</key>
+        <string>Túi mix lụa</string>
+        <key>price</key>
+        <string>320k</string>
+        <key>photo</key>
+        <string>bagc</string>
+    </dict>
+    <dict>
+        <key>bag</key>
+        <string>Túi caro đen trắng</string>
+        <key>price</key>
+        <string>300k</string>
+        <key>photo</key>
+        <string>bagd</string>
+    </dict>
+    <dict>
+        <key>bag</key>
+        <string>Túi ngôi sao</string>
+        <key>price</key>
+        <string>340k</string>
+        <key>photo</key>
+        <string>bage</string>
+    </dict>
+</array>
+</plist>

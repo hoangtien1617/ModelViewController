@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>clothes</key>
+		<string>Áo nỉ Hươu hồng</string>
+		<key>price</key>
+		<string>150k</string>
+		<key>photo</key>
+		<string>clothesa</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Áo nỉ xanh đen</string>
+		<key>price</key>
+		<string>130k</string>
+		<key>photo</key>
+		<string>clothesd</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Chân váy hoa đen trắng</string>
+		<key>price</key>
+		<string>140k</string>
+		<key>photo</key>
+		<string>clothese</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Váy hồng</string>
+		<key>price</key>
+		<string>150k</string>
+		<key>photo</key>
+		<string>clothesf</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Áo nỉ hồng cute</string>
+		<key>price</key>
+		<string>150k</string>
+		<key>photo</key>
+		<string>clothesg</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Áo nỉ hoa hồng</string>
+		<key>price</key>
+		<string>150k</string>
+		<key>photo</key>
+		<string>clothesh</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Gile Lông xám</string>
+		<key>price</key>
+		<string>200k</string>
+		<key>photo</key>
+		<string>clothesi</string>
+	</dict>
+	<dict>
+		<key>clothes</key>
+		<string>Váy đỏ chấm trái tim</string>
+		<key>price</key>
+		<string>180k</string>
+		<key>photo</key>
+		<string>clothesj</string>
+	</dict>
+</array>
+</plist>
