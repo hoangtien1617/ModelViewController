@@ -697,7 +697,7 @@
                                 <rect key="frame" x="-4" y="28" width="383" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Clothes" id="iuw-SJ-UYB">
+                                    <navigationItem title="Shoes" id="iuw-SJ-UYB">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="8Me-5l-Ulx">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="VeY-4o-7to"/>

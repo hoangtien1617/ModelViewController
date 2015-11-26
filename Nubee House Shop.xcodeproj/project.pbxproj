@@ -191,13 +191,10 @@
 		29756E371C06C66D00439559 = {
 			isa = PBXGroup;
 			children = (
-				29756EEB1C06E01300439559 /* ViewControllers */,
-				29756EE91C06DF9500439559 /* bagBtn.png */,
-				29756EE31C06DE1C00439559 /* clothesBtn.png */,
-				29756EE41C06DE1C00439559 /* shoesBtn.png */,
 				29756E4C1C06C66D00439559 /* Main.storyboard */,
-				29756E5D1C06C8E500439559 /* Photo */,
 				29756E5A1C06C67C00439559 /* Model */,
+				29756EEB1C06E01300439559 /* ViewControllers */,
+				29756E5D1C06C8E500439559 /* Photo */,
 				29756E421C06C66D00439559 /* Nubee House Shop */,
 				29756E411C06C66D00439559 /* Products */,
 			);
@@ -257,6 +254,9 @@
 		29756E5D1C06C8E500439559 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
+				29756EE91C06DF9500439559 /* bagBtn.png */,
+				29756EE31C06DE1C00439559 /* clothesBtn.png */,
+				29756EE41C06DE1C00439559 /* shoesBtn.png */,
 				29756EA11C06D59600439559 /* Icon */,
 				29756E8A1C06CA8800439559 /* Bag */,
 				29756E751C06CA1700439559 /* Shoes */,
@@ -397,6 +397,7 @@
 				TargetAttributes = {
 					29756E3F1C06C66D00439559 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7R8ZB7V7RS;
 					};
 				};
 			};
@@ -618,10 +619,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Nubee House Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HT.Nubee-House-Shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -629,10 +634,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Nubee House Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HT.Nubee-House-Shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
